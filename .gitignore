@@ -1,0 +1,5 @@
+.mypy_cache/
+.vscode/
+.python-version
+
+data/
