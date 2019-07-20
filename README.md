@@ -1,5 +1,8 @@
 # Image Collector
 
+[![license](https://img.shields.io/pypi/l/git-commenter-cli.svg)](LICENSE)
+[![stars](https://img.shields.io/github/stars/skmatz/image-collector.svg?style=social)](https://github.com/skmatz/image-collector/stargazers)
+
 ## Overview
 
 This program collects images from Google Image Search.
