@@ -2,6 +2,7 @@
 
 [![license](https://img.shields.io/pypi/l/git-commenter-cli.svg)](LICENSE)
 [![stars](https://img.shields.io/github/stars/skmatz/image-collector.svg?style=social)](https://github.com/skmatz/image-collector/stargazers)
+[![forks](https://img.shields.io/github/forks/skmatz/image-collector?style=social)](https://github.com/skmatz/image-collector/network/members)
 
 ## Overview
 
