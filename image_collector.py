@@ -91,6 +91,14 @@ def main(args):
             cprint("Failed.", "yellow")
             download_errors.append(i + 1)
             continue
+        except urllib.error.URLError:
+            cprint("Failed.(SSL Error)", "yellow")
+            download_errors.append(i + 1)
+            continue
+        except UnicodeEncodeError:
+            cprint("Failed.(Encoding Error)", "yellow")
+            download_errors.append(i + 1)
+            continue
 
     cprint("Download complete.", "blue")
 
