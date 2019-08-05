@@ -88,15 +88,15 @@ def main(args):
             urllib.request.urlretrieve(url, download_path)
             cprint("Successful.", "green")
         except urllib.error.HTTPError:
-            cprint("Failed.", "yellow")
+            cprint("Failed. (HTTP Error)", "yellow")
             download_errors.append(i + 1)
             continue
         except urllib.error.URLError:
-            cprint("Failed.(SSL Error)", "yellow")
+            cprint("Failed. (SSL Error)", "yellow")
             download_errors.append(i + 1)
             continue
         except UnicodeEncodeError:
-            cprint("Failed.(Encoding Error)", "yellow")
+            cprint("Failed. (Encoding Error)", "yellow")
             download_errors.append(i + 1)
             continue
 
